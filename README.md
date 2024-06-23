@@ -5,8 +5,5 @@ Ejercicios para desarrollo web - Con esto voy a practicar HTML y CSS para darle 
 *Contenido del repositorio:* ***proyecto de primera página web para ejercicios de desarrollo web***<p>
 
 1. index.html - ejercicio de HTML con CSS
-1. Contenido de animes anteriores - lo mismo pero de animes viejitos
-1. Tendencias de videojuegos
-1. Noticias Relevantes
 
 ![kururin](/img/kururin.gif "Hover text")
