@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <style>
+        .logo {
+            width: 15%;
+        }
+        
+        .logo img {
+            width: 100%;
+            margin: 20px;
+        }
+
+        .nav{
+            height: 60px;
+            border-top: 1px solid gray;
+            display: flex; 
+            justify-content: end;
+        }
+
+        .links {
+            display: flex;
+            width: fit-content;
+            align-items: center;
+        }
+        .links a {
+            margin-left: 20px;
+            text-decoration: none;
+            font-weight: 900;
+            color: green;
+
+        }
+        .links a:hover{
+            color: greenyellow;
+        }
+        
+        .fondo{
+            display: flex;
+            padding: 70px 150px;
+        }
+
+        .fondo{
+            
+        }
+        .vector{
+
+        }
+
+        .letras-grid{
+            background-color: rgba(0, 0, 0, 0.3);
+            display:grid;
+            gap:3px;
+            width:50%;
+            color:white;
+          }
+          .l-1{
+            background-color:red;
+            grid-column:1/4;/*1,2,3*/
+            grid-row:1/2;
+            font-size:30px;
+          }
+          .l-2{
+            background-color:blue;
+            grid-column:2/3;/*2*/
+            grid-row:2/3;
+            
+          }
+          .l-3{
+            background-color:green;
+            grid-column:3/4;/*1,2,3*/
+            grid-row:2/3;
+            font-size:30px;
+          }
+          .l-4{
+            background-color:yellow;
+            grid-column:3/4;/*1,2,3*/
+            grid-row:3/4;
+          }
+          
+          .vector{
+            background-color: black;
+          }
+          
+          main{
+            display:flex;
+            background-color:orange;
+            height:338px;
+            padding-left:50px;
+            align-items:center;
+          }
+          .letras-vector{
+            display:flex;
+            height:80%;
+            width:80%;
+          }
+    </style>
+  </head>
+  
+<body>
+    <header>
+        <div>
+            <img src="" alt="">
+        </div>
+        <nav class="links nav">
+            <a href="">Residentes</a>
+            <a href="">Negocios</a>
+            <a href="">Visitantes</a>
+            <a href="">Gobierno</a>
+        </nav>
+    </header>
+    <main>
+        <main>
+          <div class="letras-vector">
+            <div class="vector">
+              <img src="/img/kururin.gif">
+            </div>
+            <div class="letras-grid">
+              <span class="l-1">Aprende a programar</span>
+              <span class="l-2">En las</span>
+              <span class="l-3">ESCUELAS<br>DE CÓDIGO</span>
+              <span class="l-4">de la CDMX</span>
+            </div>
+          </div>
+        </main>
+    </main>
+    <footer>
+        <h3>ALGO</h3>
+        <p><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt repudiandae reprehenderit maxime odio, voluptate cumque. Quo, similique ipsa perspiciatis doloribus exercitationem qui! Perspiciatis ut ab dolore eum, tenetur sunt? Rem.</strong></p>
+    </footer>
+</body>
+</html>
